@@ -48,6 +48,8 @@ export default function NotificationCenter(props = {}, type) {
   }));
 
   ReactDOM.render(element, div);
+  
+  return element;
 }
 
 /* eslint-disable */
